@@ -1,0 +1,5 @@
+
+1000000000		
+Problem=1000000000 Result=413.33 process time=30
+
+Problem=1000000000 Result=413.33 process time=31
