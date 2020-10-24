@@ -10,9 +10,7 @@ double f(double x){
 
 int main(int argc, char const *argv[])
 {
-    // struct timeval start, stop;
     time_t start_process = time(NULL);
-    // gettimeofday(&start, 0);
     double a = 1;
     double b = 5;
     int N = atoi(argv[1]);
@@ -24,7 +22,6 @@ int main(int argc, char const *argv[])
         total_area+= f(x_i);
     }
     double Result= h*total_area;
-    // gettimeofday(&stop, 0);
     time_t end_process = time(NULL);
     FILE *fp;
     char outputFilename[] = "serial_time.txt";
@@ -33,7 +30,6 @@ int main(int argc, char const *argv[])
         fprintf(stderr, "Can't open output file %s!\n", outputFilename);
         exit(1);
     }
-    // fprintf(fp,"\nProblem=%d Result=%f process time=%ld\n", N,Result,(stop.tv_usec - start.tv_usec));
     fprintf(fp,"\nProblem=%d Result=%1.2f process time=%ld\n", N,Result,(end_process - start_process));
     fclose(fp);
     return 0;

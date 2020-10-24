@@ -1,0 +1,44 @@
+
+4	1000000000		
+Problem=1000000000 result=413.33 process time=9
+
+Problem=1000000000 result=413.33 process time=8
+
+Problem=1000000000 result=413.33 process time=10
+
+Problem=1000000000 result=413.33 process time=10
+
+Problem=1000000000 result=413.33 process time=11
+
+4	1200000000		
+Problem=1200000000 result=413.33 process time=13
+
+Problem=1200000000 result=413.33 process time=13
+
+Problem=1200000000 result=413.33 process time=13
+
+Problem=1200000000 result=413.33 process time=13
+
+Problem=1200000000 result=413.33 process time=12
+
+4	1600000000		
+Problem=1600000000 result=413.33 process time=16
+
+Problem=1600000000 result=413.33 process time=16
+
+Problem=1600000000 result=413.33 process time=16
+
+Problem=1600000000 result=413.33 process time=16
+
+Problem=1600000000 result=413.33 process time=17
+
+4	1800000000		
+Problem=1800000000 result=413.33 process time=19
+
+Problem=1800000000 result=413.33 process time=18
+
+Problem=1800000000 result=413.33 process time=19
+
+Problem=1800000000 result=413.33 process time=19
+
+Problem=1800000000 result=413.33 process time=19

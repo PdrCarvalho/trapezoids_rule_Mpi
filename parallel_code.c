@@ -41,7 +41,7 @@ int main(int argc, char **argv)
     }
     
     MPI_Finalize();
-    if (taskid ==1){
+    if (taskid !=0){
         return 0;
     }
     time_t end_process = time(NULL);
